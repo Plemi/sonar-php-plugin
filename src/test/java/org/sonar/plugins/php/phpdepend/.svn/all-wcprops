@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/phpdepend
+END
+PhpDependConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/phpdepend/PhpDependConfigurationTest.java
+END
+PhpDependSensorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/phpdepend/PhpDependSensorTest.java
+END
+PhpDependExecutorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/phpdepend/PhpDependExecutorTest.java
+END
+PhpDependResultsParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/phpdepend/PhpDependResultsParserTest.java
+END

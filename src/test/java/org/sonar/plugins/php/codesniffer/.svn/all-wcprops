@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer
+END
+PhpCodeSnifferProfileImporterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferProfileImporterTest.java
+END
+PhpCodeSnifferViolationsXmlParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferViolationsXmlParserTest.java
+END
+PhpCodeSnifferPriorityMapperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferPriorityMapperTest.java
+END
+PhpCodesnifferConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodesnifferConfigurationTest.java
+END
+PhpCodeSnifferProfileExporterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferProfileExporterTest.java
+END
+PhpCodesnifferSensorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodesnifferSensorTest.java
+END
+PhpCodesnifferExecutorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/codesniffer/PhpCodesnifferExecutorTest.java
+END

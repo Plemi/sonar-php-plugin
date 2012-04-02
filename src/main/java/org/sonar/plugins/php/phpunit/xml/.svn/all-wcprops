@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml
+END
+CoverageNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/CoverageNode.java
+END
+PackageNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/PackageNode.java
+END
+FileNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/FileNode.java
+END
+TestSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/TestSuite.java
+END
+ClassNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/ClassNode.java
+END
+TestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/TestCase.java
+END
+MetricsNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/MetricsNode.java
+END
+ProjectNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/ProjectNode.java
+END
+TestSuites.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/TestSuites.java
+END
+LineNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/phpunit/xml/LineNode.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer
+END
+test_xml_with_param_value_id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/test_xml_with_param_value_id.xml
+END
+codesniffer-result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/codesniffer-result.xml
+END
+test_module_tree.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/test_module_tree.xml
+END
+codesniffer-class-without-package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/codesniffer-class-without-package.xml
+END
+complex-export.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/complex-export.xml
+END
+test_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/test_header.xml
+END
+invalid-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/invalid-ruleset.xml
+END
+complex-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/complex-ruleset.xml
+END
+pear-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/pear-ruleset.xml
+END
+simple-export.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/simple-export.xml
+END
+simple-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/simple-ruleset.xml
+END
+simple-ruleset-with-no-priority.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/codesniffer/simple-ruleset-with-no-priority.xml
+END

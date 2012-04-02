@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core
+END
+PhpRuleRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/PhpRuleRepository.java
+END
+AbstractPhpConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/AbstractPhpConfiguration.java
+END
+PriorityMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/PriorityMapper.java
+END
+PhpPluginExecutionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/PhpPluginExecutionException.java
+END
+AbstractPhpExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/AbstractPhpExecutor.java
+END
+PhpSourceImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/PhpSourceImporter.java
+END
+PhpSourceCodeColorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/PhpSourceCodeColorizer.java
+END
+AbstractPhpProfileImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/AbstractPhpProfileImporter.java
+END
+NoSonarAndCommentedOutLocSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/core/NoSonarAndCommentedOutLocSensor.java
+END

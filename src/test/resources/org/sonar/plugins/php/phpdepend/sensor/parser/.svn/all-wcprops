@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpdepend/sensor/parser
+END
+pdepend-with-empty-filename.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpdepend/sensor/parser/pdepend-with-empty-filename.xml
+END
+pdepend-invalid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpdepend/sensor/parser/pdepend-invalid.xml
+END
+pdepend.samefiledifferbysuffix.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpdepend/sensor/parser/pdepend.samefiledifferbysuffix.xml
+END
+pdepend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpdepend/sensor/parser/pdepend.xml
+END

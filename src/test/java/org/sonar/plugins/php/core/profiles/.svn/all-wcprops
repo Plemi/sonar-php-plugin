@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles
+END
+ZendProfileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles/ZendProfileTest.java
+END
+AllPhpmdProfileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles/AllPhpmdProfileTest.java
+END
+SonarWayProfileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles/SonarWayProfileTest.java
+END
+AllPhpCSProfileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles/AllPhpCSProfileTest.java
+END
+PearProfileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/core/profiles/PearProfileTest.java
+END

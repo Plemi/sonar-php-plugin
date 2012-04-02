@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/resources/org/sonar/plugins/php/pmd
+END
+rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/resources/org/sonar/plugins/php/pmd/rules.xml
+END

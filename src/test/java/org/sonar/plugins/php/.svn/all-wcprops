@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php
+END
+PhpTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/PhpTest.java
+END
+MockUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/java/org/sonar/plugins/php/MockUtils.java
+END

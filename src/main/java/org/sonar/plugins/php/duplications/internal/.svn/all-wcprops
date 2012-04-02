@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/Token.java
+END
+TokenChunker.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/TokenChunker.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/package-info.java
+END
+TokenQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/TokenQueue.java
+END
+TokenChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/TokenChannel.java
+END
+BlackHoleTokenChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/duplications/internal/BlackHoleTokenChannel.java
+END

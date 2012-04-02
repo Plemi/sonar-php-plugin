@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer
+END
+PhpCodeSnifferProfileImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferProfileImporter.java
+END
+PhpCodeSnifferViolation.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferViolation.java
+END
+PhpCodeSnifferViolationsXmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferViolationsXmlParser.java
+END
+PhpCodeSnifferPriorityMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferPriorityMapper.java
+END
+PhpCodeSnifferConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferConfiguration.java
+END
+PhpCodeSnifferRuleRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferRuleRepository.java
+END
+PhpCodeSnifferProfileExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferProfileExporter.java
+END
+PhpCodeSnifferSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferSensor.java
+END
+PhpCodeSnifferExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/codesniffer/PhpCodeSnifferExecutor.java
+END

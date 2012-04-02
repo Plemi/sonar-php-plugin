@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml
+END
+PropertiesNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/PropertiesNode.java
+END
+PmdRuleset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/PmdRuleset.java
+END
+PmdProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/PmdProperty.java
+END
+PmdRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/PmdRule.java
+END
+RulesetNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/RulesetNode.java
+END
+PropertyNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/PropertyNode.java
+END
+RuleNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/main/java/org/sonar/plugins/php/pmd/xml/RuleNode.java
+END

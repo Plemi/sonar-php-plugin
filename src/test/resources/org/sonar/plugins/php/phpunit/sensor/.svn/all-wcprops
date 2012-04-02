@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor
+END
+phpunit.coverage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor/phpunit.coverage.xml
+END
+phpunit.coverage-with-package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor/phpunit.coverage-with-package.xml
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor/phpunit.xml
+END
+phpunit-invalid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor/phpunit-invalid.xml
+END
+phpunit.coverage-with-no-statements-covered.xml
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/phpunit/sensor/phpunit.coverage-with-no-statements-covered.xml
+END

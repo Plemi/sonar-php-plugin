@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd
+END
+simple-ruleset-with-param.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/simple-ruleset-with-param.xml
+END
+php-pmd-result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/php-pmd-result.xml
+END
+php-pmd-result-with-control-char.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/php-pmd-result-with-control-char.xml
+END
+complex-with-unknown-nodes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/complex-with-unknown-nodes.xml
+END
+test_xml_complete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_xml_complete.xml
+END
+test_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_header.xml
+END
+test_xml_with_data_to_exclude.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_xml_with_data_to_exclude.xml
+END
+export_xpath_rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/export_xpath_rules.xml
+END
+test_xml_with_class_param.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_xml_with_class_param.xml
+END
+php-pmd-result-with-unknown-entity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/php-pmd-result-with-unknown-entity.xml
+END
+php-pmd-class-without-package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/php-pmd-class-without-package.xml
+END
+test_module_tree.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_module_tree.xml
+END
+entire-unusedcode-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/entire-unusedcode-ruleset.xml
+END
+test_xml_utf8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/test_xml_utf8.xml
+END
+simple-export.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/simple-export.xml
+END
+simple-ruleset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/simple-ruleset.xml
+END
+simple-export-with-param.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sonar-plugins/!svn/ver/5037/tags/parent-1.0/sonar-php-plugin/src/test/resources/org/sonar/plugins/php/pmd/simple-export-with-param.xml
+END
