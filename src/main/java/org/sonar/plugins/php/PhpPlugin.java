@@ -67,6 +67,20 @@ import static org.sonar.plugins.php.phpunit.PhpUnitConfiguration.PHPUNIT_REPORT_
 import static org.sonar.plugins.php.phpunit.PhpUnitConfiguration.PHPUNIT_REPORT_FILE_RELATIVE_PATH_KEY;
 import static org.sonar.plugins.php.phpunit.PhpUnitConfiguration.PHPUNIT_SKIP_KEY;
 import static org.sonar.plugins.php.phpunit.PhpUnitConfiguration.PHPUNIT_TIMEOUT_KEY;
+
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_COVERAGE_REPORT_FILE_DEFVALUE;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_COVERAGE_REPORT_FILE_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_COVERAGE_SKIP_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_REPORT_FILE_NAME_DEFAULT;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_REPORT_FILE_NAME_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_REPORT_FILE_RELATIVE_PATH_DEFVALUE;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_REPORT_FILE_RELATIVE_PATH_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_SKIP_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_BOOTSTRAP_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_CONFIGURATION_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_SHOULD_RUN_KEY;
+import static org.sonar.plugins.php.atoum.AtoumConfiguration.ATOUM_SHOULD_RUN_COVERAGE_KEY;
+
 import static org.sonar.plugins.php.pmd.PhpmdConfiguration.PHPMD_ANALYZE_ONLY_KEY;
 import static org.sonar.plugins.php.pmd.PhpmdConfiguration.PHPMD_ARGUMENT_LINE_KEY;
 import static org.sonar.plugins.php.pmd.PhpmdConfiguration.PHPMD_LEVEL_ARGUMENT_DEFVALUE;
@@ -120,6 +134,12 @@ import org.sonar.plugins.php.pmd.PhpmdProfileImporter;
 import org.sonar.plugins.php.pmd.PhpmdRuleRepository;
 import org.sonar.plugins.php.pmd.PhpmdSensor;
 import org.sonar.plugins.php.pmd.PmdRulePriorityMapper;
+import org.sonar.plugins.php.atoum.AtoumConfiguration;
+import org.sonar.plugins.php.atoum.AtoumCoverageDecorator;
+import org.sonar.plugins.php.atoum.AtoumCoverageResultParser;
+import org.sonar.plugins.php.atoum.AtoumExecutor;
+import org.sonar.plugins.php.atoum.AtoumResultParser;
+import org.sonar.plugins.php.atoum.AtoumSensor;
 
 /**
  * This class is the sonar entry point of this plugin. It declares all the extension that can be launched with this plugin.
@@ -244,10 +264,96 @@ import org.sonar.plugins.php.pmd.PmdRulePriorityMapper;
   @Property(key = PHPUNIT_ARGUMENT_LINE_KEY, defaultValue = "", name = "Additional arguments", project = true, global = true,
     description = "Additionnal parameters that can be passed to PHPUnit tool.", category = PhpPlugin.CATEGORY_PHP_PHP_UNIT),
   @Property(key = PHPUNIT_TIMEOUT_KEY, defaultValue = "" + DEFAULT_TIMEOUT, name = "Timeout", project = true, global = true,
-    description = "Maximum number of minutes that the execution of the tool should take.", category = PhpPlugin.CATEGORY_PHP_PHP_UNIT)})
+    description = "Maximum number of minutes that the execution of the tool should take.", category = PhpPlugin.CATEGORY_PHP_PHP_UNIT),
+	
+  //------------------ atoum Configuration ------------------
+  @Property(
+		  key = ATOUM_SKIP_KEY, 
+		  defaultValue = "false", 
+		  name = "Disable atoum", 
+		  project = true, 
+		  global = true,
+		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_SHOULD_RUN_KEY, 
+		  defaultValue = "true", 
+		  name = "Enable atoum", 
+		  project = true, 
+		  global = true,
+		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_SHOULD_RUN_COVERAGE_KEY, 
+		  defaultValue = "true", 
+		  name = "Enable atoum code coverage", 
+		  project = true, 
+		  global = true,
+		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_COVERAGE_SKIP_KEY, 
+		  defaultValue = "false", 
+		  name = "Disable atoum code coverage", 
+		  project = true, 
+		  global = true,
+		  description = "If true, code coverage measures will not be computed.", 
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),  
+  @Property(
+		  key = ATOUM_REPORT_FILE_RELATIVE_PATH_KEY, 
+		  defaultValue = ATOUM_REPORT_FILE_RELATIVE_PATH_DEFVALUE,
+		  name = "Report file path", 
+		  project = true, 
+		  global = true, 
+		  description = "Relative path of the report file to analyse.",
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_REPORT_FILE_NAME_KEY, 
+		  defaultValue = ATOUM_REPORT_FILE_NAME_DEFAULT, 
+		  name = "Report file name",
+		  project = true, 
+		  global = true, 
+		  description = "Name of the report file to analyse.", 
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_COVERAGE_REPORT_FILE_KEY, 
+		  defaultValue = ATOUM_COVERAGE_REPORT_FILE_DEFVALUE,
+		  name = "Coverage report file name", 
+		  project = true, 
+		  global = true, 
+		  description = "Name of the coverage report file to analyse.",
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_BOOTSTRAP_KEY, 
+		  defaultValue = "", 
+		  name = "Bootstrap file", 
+		  project = true, 
+		  global = true,
+		  description = "A 'bootstrap' PHP file that is run before the tests.", 
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+  @Property(
+		  key = ATOUM_CONFIGURATION_KEY, 
+		  defaultValue = "", 
+		  name = "Configuration file", 
+		  project = true, 
+		  global = true,
+		  description = "Read configuration from PHP file.", 
+		  category = PhpPlugin.CATEGORY_PHP_ATOUM
+  ),
+})
+
 public class PhpPlugin extends SonarPlugin {
 
   protected static final String CATEGORY_PHP_PHP_UNIT = "PHP Unit";
+  protected static final String CATEGORY_PHP_ATOUM = "atoum";
   protected static final String CATEGORY_PHP_PHP_DEPEND = "PHP Depend";
   protected static final String CATEGORY_PHP_CODE_SNIFFER = "PHP CodeSniffer";
   protected static final String CATEGORY_PHP_PHPMD = "PHP PMD";
@@ -315,6 +421,14 @@ public class PhpPlugin extends SonarPlugin {
     extensions.add(PhpUnitCoverageResultParser.class);
     extensions.add(PhpUnitCoverageDecorator.class);
 
+    // atoum
+    extensions.add(AtoumConfiguration.class);
+    extensions.add(AtoumSensor.class);
+    extensions.add(AtoumExecutor.class);
+    extensions.add(AtoumResultParser.class);
+    extensions.add(AtoumCoverageResultParser.class);
+    extensions.add(AtoumCoverageDecorator.class);
+    
     return extensions;
   }
 }
