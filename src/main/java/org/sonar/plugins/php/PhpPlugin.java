@@ -265,87 +265,87 @@ import org.sonar.plugins.php.atoum.AtoumSensor;
     description = "Additionnal parameters that can be passed to PHPUnit tool.", category = PhpPlugin.CATEGORY_PHP_PHP_UNIT),
   @Property(key = PHPUNIT_TIMEOUT_KEY, defaultValue = "" + DEFAULT_TIMEOUT, name = "Timeout", project = true, global = true,
     description = "Maximum number of minutes that the execution of the tool should take.", category = PhpPlugin.CATEGORY_PHP_PHP_UNIT),
-	
+
   //------------------ atoum Configuration ------------------
   @Property(
-		  key = ATOUM_SKIP_KEY, 
-		  defaultValue = "false", 
-		  name = "Disable atoum", 
-		  project = true, 
+		  key = ATOUM_SKIP_KEY,
+		  defaultValue = "false",
+		  name = "Disable atoum",
+		  project = true,
 		  global = true,
-		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  description = "If true, atoum tests will not run and unit tests counts will not be present in Sonar dashboard.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_SHOULD_RUN_KEY, 
-		  defaultValue = "true", 
-		  name = "Enable atoum", 
-		  project = true, 
+		  key = ATOUM_SHOULD_RUN_KEY,
+		  defaultValue = "true",
+		  name = "Enable atoum",
+		  project = true,
 		  global = true,
-		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  description = "If true, atoum tests will not run and unit tests counts will not be present in Sonar dashboard.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_SHOULD_RUN_COVERAGE_KEY, 
-		  defaultValue = "true", 
-		  name = "Enable atoum code coverage", 
-		  project = true, 
+		  key = ATOUM_SHOULD_RUN_COVERAGE_KEY,
+		  defaultValue = "true",
+		  name = "Enable atoum code coverage",
+		  project = true,
 		  global = true,
-		  description = "If true, PHPUnit tests will not run and unit tests counts will not be present in Sonar dashboard.",
+		  description = "If true, atoum tests will not run and unit tests counts will not be present in Sonar dashboard.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_COVERAGE_SKIP_KEY, 
-		  defaultValue = "false", 
-		  name = "Disable atoum code coverage", 
-		  project = true, 
+		  key = ATOUM_COVERAGE_SKIP_KEY,
+		  defaultValue = "false",
+		  name = "Disable atoum code coverage",
+		  project = true,
 		  global = true,
-		  description = "If true, code coverage measures will not be computed.", 
+		  description = "If true, code coverage measures will not be computed.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
-  ),  
+  ),
   @Property(
-		  key = ATOUM_REPORT_FILE_RELATIVE_PATH_KEY, 
+		  key = ATOUM_REPORT_FILE_RELATIVE_PATH_KEY,
 		  defaultValue = ATOUM_REPORT_FILE_RELATIVE_PATH_DEFVALUE,
-		  name = "Report file path", 
-		  project = true, 
-		  global = true, 
+		  name = "Report file path",
+		  project = true,
+		  global = true,
 		  description = "Relative path of the report file to analyse.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_REPORT_FILE_NAME_KEY, 
-		  defaultValue = ATOUM_REPORT_FILE_NAME_DEFAULT, 
+		  key = ATOUM_REPORT_FILE_NAME_KEY,
+		  defaultValue = ATOUM_REPORT_FILE_NAME_DEFAULT,
 		  name = "Report file name",
-		  project = true, 
-		  global = true, 
-		  description = "Name of the report file to analyse.", 
+		  project = true,
+		  global = true,
+		  description = "Name of the report file to analyse.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_COVERAGE_REPORT_FILE_KEY, 
+		  key = ATOUM_COVERAGE_REPORT_FILE_KEY,
 		  defaultValue = ATOUM_COVERAGE_REPORT_FILE_DEFVALUE,
-		  name = "Coverage report file name", 
-		  project = true, 
-		  global = true, 
+		  name = "Coverage report file name",
+		  project = true,
+		  global = true,
 		  description = "Name of the coverage report file to analyse.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_BOOTSTRAP_KEY, 
-		  defaultValue = "", 
-		  name = "Bootstrap file", 
-		  project = true, 
+		  key = ATOUM_BOOTSTRAP_KEY,
+		  defaultValue = "",
+		  name = "Bootstrap file",
+		  project = true,
 		  global = true,
-		  description = "A 'bootstrap' PHP file that is run before the tests.", 
+		  description = "A 'bootstrap' PHP file that is run before the tests.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
   @Property(
-		  key = ATOUM_CONFIGURATION_KEY, 
-		  defaultValue = "", 
-		  name = "Configuration file", 
-		  project = true, 
+		  key = ATOUM_CONFIGURATION_KEY,
+		  defaultValue = "",
+		  name = "Configuration file",
+		  project = true,
 		  global = true,
-		  description = "Read configuration from PHP file.", 
+		  description = "Read configuration from PHP file.",
 		  category = PhpPlugin.CATEGORY_PHP_ATOUM
   ),
 })
@@ -364,7 +364,7 @@ public class PhpPlugin extends SonarPlugin {
 
   /**
    * Gets the extensions.
-   * 
+   *
    * @return the extensions
    * @see org.sonar.api.Plugin#getExtensions()
    */
@@ -428,7 +428,7 @@ public class PhpPlugin extends SonarPlugin {
     extensions.add(AtoumResultParser.class);
     extensions.add(AtoumCoverageResultParser.class);
     extensions.add(AtoumCoverageDecorator.class);
-    
+
     return extensions;
   }
 }
